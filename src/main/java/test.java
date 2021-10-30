@@ -58,6 +58,11 @@ import org.joda.time.DateTime;
             c2.printCourseModules();
             c3.printCourseModules();
 
+            System.out.println("PRINT STUDENTS RELATED TO THE COURSE");
+            c1.printCourseStudents();
+            c2.printCourseStudents();
+            c3.printCourseStudents();
+
             System.out.println("PRINT MODULES RELATED TO THE STUDENT");
             s1.printStudentModules();
             s2.printStudentModules();
@@ -69,12 +74,6 @@ import org.joda.time.DateTime;
             s2.printStudentCourses();
             s3.printStudentCourses();
             s4.printStudentCourses();
-
-            System.out.println("PRINT COURSES RELATED TO THE STUDENT");
-            s1.printCourseStudents();
-            s2.printCourseStudents();
-            s3.printCourseStudents();
-            s4.printCourseStudents();
 
             System.out.println("PRINT STUDENTS RELATED TO MODULE");
             m1.printModuleStudents();
